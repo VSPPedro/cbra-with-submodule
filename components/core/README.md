@@ -10,3 +10,13 @@ git checkout -b branch --track origin/branch
 ### If the master branch already exist:
 
 git branch -u origin/master master
+
+
+### Update submodules
+
+git submodule update --remote
+
+
+### Update only one submodule
+
+git submodule update <specific path to submodule>
