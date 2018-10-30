@@ -19,4 +19,4 @@ git submodule update --remote
 
 ### Update only one submodule
 
-git submodule update <specific path to submodule>
+git submodule update --remote components/core/component_one
