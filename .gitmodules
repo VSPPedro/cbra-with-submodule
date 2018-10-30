@@ -1,3 +1,6 @@
 [submodule "components/core/component_one"]
 	path = components/core/component_one
 	url = git@github.com:VSPPedro/component-one-submodule.git
+[submodule "components/domain/component_two"]
+	path = components/domain/component_two
+	url = git@github.com:VSPPedro/component-two-submodule.git
