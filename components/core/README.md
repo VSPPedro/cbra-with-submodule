@@ -2,7 +2,6 @@
 
 git submodule add git@github.com:VSPPedro/component-one-submodule.git components/core/component_one
 
-
 ## Make sure your submodule is actually at the branch that you want:
 
 git checkout -b branch --track origin/branch
@@ -11,11 +10,9 @@ git checkout -b branch --track origin/branch
 
 git branch -u origin/master master
 
-
 ### Update submodules
 
 git submodule update --remote
-
 
 ### Update only one submodule
 

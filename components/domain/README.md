@@ -1,0 +1,19 @@
+## Create Submodule component_one in core folder
+
+git submodule add git@github.com:VSPPedro/component-two-submodule.git components/domain/component_two
+
+## Make sure your submodule is actually at the branch that you want:
+
+git checkout -b branch --track origin/branch
+
+### If the master branch already exist:
+
+git branch -u origin/master master
+
+### Update submodules
+
+git submodule update --remote
+
+### Update only one submodule
+
+git submodule update --remote components/domain/component_two
