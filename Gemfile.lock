@@ -8,6 +8,7 @@ PATH
   remote: components/domain/component_two
   specs:
     component_two (0.1.0)
+      component_one
       rails (~> 5.2.1)
 
 GEM
