@@ -4,6 +4,12 @@ PATH
     component_one (0.1.0)
       rails (~> 5.2.1)
 
+PATH
+  remote: components/domain/component_two
+  specs:
+    component_two (0.1.0)
+      rails (~> 5.2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -206,6 +212,7 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   component_one!
+  component_two!
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.11)

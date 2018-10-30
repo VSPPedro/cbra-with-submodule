@@ -62,3 +62,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'component_one', path: 'components/core/component_one'
+gem 'component_two', path: 'components/domain/component_two'
