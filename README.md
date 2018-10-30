@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Clone project
 
-Things you may want to cover:
+git clone git@github.com:VSPPedro/cbra-with-submodules.git
 
-* Ruby version
+## Clone project including submodules
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+git clone --recurse-submodules git@github.com:VSPPedro/cbra-with-submodules.git
