@@ -1,0 +1,3 @@
+[submodule "components/core/component_one"]
+	path = components/core/component_one
+	url = git@github.com:VSPPedro/component-one-submodule.git
