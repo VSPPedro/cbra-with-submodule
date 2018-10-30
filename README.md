@@ -10,5 +10,5 @@ git clone --recurse-submodules git@github.com:VSPPedro/cbra-with-submodules.git
 
 ## Update project
 
-git pull
+git pull  
 git submodule update --remote
